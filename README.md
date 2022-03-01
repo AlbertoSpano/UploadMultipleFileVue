@@ -48,14 +48,25 @@ usage in the parent component:
                        
                        />
                        
+                       
     <a href="#" @click="startUpload">Load file</a>
     
+    
 method in the parent code
+
     methods:{
+    
         startUpload() {
+        
             // some opional custom code
+            
             // ...
+            
             ///...
+            
             this.$refs.upload.uploadOpenSelectFile(this.params);
+            
         },
+        
     }
+    
