@@ -1,5 +1,7 @@
 # Vue component: Upload Multiple File
 
+## Components elements 
+
 **properties**:    
 
     webService:  server-side httphandler upload file       
@@ -21,7 +23,7 @@
     uploadOpenSelectFile(uploadParams), call from the parent to start files upload with optional parameters
     
     
-**usage in the parent component**:   
+## Usage in the parent component:   
 
     <uploadfilecontrol ref="upload"        
                        web-service="string value"                           
