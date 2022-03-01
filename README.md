@@ -1,7 +1,6 @@
 # Vue component: Upload Multiple File
 
-**properties**: 
-
+**properties**:    
     webService:  server-side httphandler upload file       
     maxMBlength: maximum file length (MB)      
     extensions:  comma separated list of allowed file extensions (same rule of 'accept' attribuite)      
@@ -9,7 +8,7 @@
     
     
     
-events:  
+**events**:  
     uploadstarting():                                        trigged before open window dialog for file select       
     uploadstarted(count):                                    trigged after start upload       
     uploadcomplete(count):                                   trigged when all file upload is complete       
