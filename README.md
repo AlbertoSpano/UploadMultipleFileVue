@@ -5,7 +5,7 @@
 **properties**:    
 
     webService:  server-side httphandler upload file       
-    maxMBlength: maximum file length (MB)      
+    maxMBlength: maximum length in MB of each file to be uploaded    
     extensions:  comma separated list of allowed file extensions (same rule of 'accept' attribuite)      
     multiple:    boolean, single or multiple file upload    
       
