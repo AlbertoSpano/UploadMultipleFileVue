@@ -2,7 +2,7 @@
 
 properties: 
 
-    webService:  server-sode httphandler upload file
+    webService:  server-side httphandler upload file
     
     maxMBlength: maximum file length (MB)
     
